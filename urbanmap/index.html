@@ -1,0 +1,102 @@
+<!doctype html> <title> *Leaflet.JS audio-player example </title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+
+<style>
+  body { font: .92em sans-serif; color: #333; background: #fefefe;  margin: 0 auto; }
+  h1, h2 { font-weight: normal; margin: 0.6em 0; }
+  .leaflet-popup-content { margin: 9px; }
+  .leaflet-popup-content-wrapper { border-radius: 6px; }
+
+  #mapid { height: 750px; }
+</style>
+
+<p id="mapid"></p>
+
+
+<script type="application/geo+json" id="geo-data">
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+        "type": "Feature",
+        "properties": {
+          "title": "Шум на улице",
+          "description": "Бишкек",
+          "audio_url": "http://wdfiles.ru/6yks?download_token=0ac745055bc37f705f92781363ce571d3fc028fd33ad85b19ec790884b402d8e",
+          "audio_urlB": "http://wdfiles.ru/6ykf?download_token=96f230e19e88aa4917195e817233286f814b12428471f507e9b146e765445eab",
+        
+          "marker-symbol": "commercial",
+          "marker-size": "large",
+          "marker-color": "c4ba6a"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.59836959838867,
+            42.859356488383945]
+      }
+    }
+    ]
+}
+
+   
+</script>
+
+
+<script type="text/html" id="popup-template">
+<div class="audio-popup">
+    <h2><%= title %></h2>
+    <h3>До карантина</h3>
+    <audio src="<%= audio_url %>" controls ></audio>
+    <h3>Во время карантина</h3>
+    <audio src="<%= audio_urlB %>" controls ></audio>
+</div>
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/lodash/4.16.2/lodash.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+
+
+<script>
+(function (W) {
+
+  'use strict';
+
+  var JSON = W.JSON  // Derive "globals".
+    , L = W.L  // Leaflet
+    , _ = W._  // Lodash
+    ;
+
+  var zoom = 13  //Was: 13,
+    , mymap = L.map('mapid').setView([ 42.859356,74.5983,]
+            , zoom)
+    , popup_template = _.template(elementText('#popup-template'))
+    , geo_data = JSON.parse(elementText('#geo-data'))
+    ;
+
+  L.tileLayer('http://tiles.maps.sputnik.ru/{z}/{x}/{y}.png', {
+    
+  }).addTo(mymap);
+
+  W.console.info(geo_data);
+
+  L.geoJson(geo_data, {
+    onEachFeature: function (feature, layer) {
+        if (feature.properties && feature.properties.audio_url) {
+            layer.bindPopup(popup_template(feature.properties));
+        }
+        else if (feature.properties && feature.properties.popupContent) {
+            layer.bindPopup(feature.properties.popupContent);
+        }
+    }
+  }).addTo(mymap);
+
+
+  function elementText(selector) {
+    return W.document.querySelector(selector).innerText;
+  }
+
+}(window));
+</script>
