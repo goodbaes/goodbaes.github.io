@@ -1,0 +1,1361 @@
+[
+    {
+        "clr": 46.08,
+        "prtn": 0.965,
+        "ft": 0.432,
+        "tcrb": 11.059,
+        "sgr": 7.042,
+        "gl": 3.272,
+        "clrj": 192.799,
+        "ncrb": 7.898,
+        "als": [
+            "Strawberries"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Strawberries, fresh",
+        "mmt": {
+            "u": "cup",
+            "q": 1,
+            "s": 1,
+            "g": 144,
+            "df": true
+        }
+    },
+    {
+        "clr": 92.4,
+        "prtn": 2.856,
+        "ft": 0.4,
+        "tcrb": 21.316,
+        "sgr": 9.934,
+        "gl": 9.188,
+        "clrj": 386.602,
+        "ncrb": 18.088,
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Onion, white, yellow or red, cooked",
+        "mmt": {
+            "u": "cup",
+            "q": 0.5,
+            "s": 1,
+            "g": 210,
+            "df": true
+        }
+    },
+    {
+        "clr": 145.6,
+        "prtn": 0.928,
+        "ft": 0.656,
+        "tcrb": 33.84,
+        "sgr": 29.232,
+        "gl": 21.016,
+        "clrj": 609.19,
+        "ncrb": 32.092,
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Sweet pickles (gherkins)",
+        "mmt": {
+            "u": "cup",
+            "q": 0.25,
+            "s": 1,
+            "g": 160,
+            "df": true
+        }
+    },
+    {
+        "clr": 40.23,
+        "prtn": 1.49,
+        "ft": 0.313,
+        "tcrb": 9.417,
+        "sgr": 7.793,
+        "gl": 4.038,
+        "clrj": 168.322,
+        "ncrb": 7.963,
+        "als": [
+            "Yellow pepper",
+            "Yellow sweet pepper",
+            "Orange bell pepper"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Yellow bell peppers, raw",
+        "mmt": {
+            "u": "cup",
+            "q": 1,
+            "s": 1,
+            "g": 149,
+            "df": true
+        }
+    },
+    {
+        "clr": 34.78,
+        "prtn": 0.629,
+        "ft": 0.111,
+        "tcrb": 8.895,
+        "sgr": 6.793,
+        "gl": 3.055,
+        "clrj": 145.52,
+        "ncrb": 7.41,
+        "als": [
+            "Clementine"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Clementine, fresh",
+        "mmt": {
+            "u": "each",
+            "q": 1,
+            "s": 1,
+            "g": 74,
+            "df": true
+        }
+    },
+    {
+        "clr": 42.09,
+        "prtn": 0.787,
+        "ft": 0.359,
+        "tcrb": 10.115,
+        "sgr": 6.203,
+        "gl": 4.674,
+        "clrj": 176.105,
+        "ncrb": 7.951,
+        "als": [
+            "Kiwi"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Kiwi fruit (Chinese gooseberry), green",
+        "mmt": {
+            "u": "each - 2\" diameter",
+            "q": 1,
+            "s": 1,
+            "g": 69,
+            "df": true
+        }
+    },
+    {
+        "clr": 52.32,
+        "prtn": 1.368,
+        "ft": 0.684,
+        "tcrb": 10.714,
+        "sgr": 0.211,
+        "gl": 4.866,
+        "clrj": 218.907,
+        "ncrb": 9.394,
+        "als": [
+            "Tortilla"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Corn tortilla, plain",
+        "mmt": {
+            "u": "each - 6\" diameter",
+            "q": 1,
+            "s": 1,
+            "g": 24,
+            "df": true
+        }
+    },
+    {
+        "clr": 214.2,
+        "prtn": 11.852,
+        "ft": 4.784,
+        "tcrb": 32.25,
+        "sgr": 1.286,
+        "gl": 8.908,
+        "clrj": 896.213,
+        "ncrb": 23.416,
+        "als": [
+            "Refried beans"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Refried beans, canned",
+        "mmt": {
+            "u": "cup",
+            "q": 0.5,
+            "s": 1,
+            "g": 238,
+            "df": true
+        }
+    },
+    {
+        "clr": 78.653,
+        "prtn": 5.509,
+        "ft": 4.732,
+        "tcrb": 3.124,
+        "sgr": 0.641,
+        "gl": 1.953,
+        "clrj": 329.084,
+        "ncrb": 2.894,
+        "als": [
+            "Meatballs",
+            "Meat patties"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Meatballs, without sauce, beef",
+        "mmt": {
+            "u": "ounce",
+            "q": 3,
+            "s": 1,
+            "g": 28.34966666666667,
+            "df": true
+        }
+    },
+    {
+        "clr": 71.109,
+        "prtn": 1.035,
+        "ft": 4.905,
+        "tcrb": 6.223,
+        "sgr": 0.07,
+        "gl": 3.65,
+        "clrj": 297.518,
+        "ncrb": 5.054,
+        "als": [
+            "Popcorn"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Popcorn, home popped, popped in fat",
+        "mmt": {
+            "u": "cup",
+            "q": 2,
+            "s": 1,
+            "g": 12.5415,
+            "df": true
+        }
+    },
+    {
+        "clr": 206.384,
+        "prtn": 16.599,
+        "ft": 10.556,
+        "tcrb": 12.752,
+        "sgr": 7.081,
+        "gl": 4.215,
+        "clrj": 863.511,
+        "ncrb": 8.114,
+        "als": [
+            "Chili con carne",
+            "Beef chili"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Chili without beans, with meat, homemade",
+        "mmt": {
+            "u": "cup",
+            "q": 1,
+            "s": 1,
+            "g": 254,
+            "df": true
+        }
+    },
+    {
+        "clr": 63.954,
+        "prtn": 4.318,
+        "ft": 3.695,
+        "tcrb": 3.215,
+        "sgr": 1.585,
+        "gl": 2.13,
+        "clrj": 267.584,
+        "ncrb": 3.072,
+        "als": [
+            "Meatloaf"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Meatloaf, beef",
+        "mmt": {
+            "u": "ounce",
+            "q": 3,
+            "s": 1,
+            "g": 28.34966666666667,
+            "df": true
+        }
+    },
+    {
+        "clr": 64.433,
+        "prtn": 5.048,
+        "ft": 3.374,
+        "tcrb": 3.185,
+        "sgr": 0.278,
+        "gl": 1.966,
+        "clrj": 269.586,
+        "ncrb": 2.998,
+        "als": [
+            "Breaded fried shimp",
+            "Battered fried shrimp",
+            "Shrimp tempura"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Shrimp, breaded or battered",
+        "mmt": {
+            "u": "ounce",
+            "q": 3,
+            "s": 1,
+            "g": 28.34966666666667,
+            "df": true
+        }
+    },
+    {
+        "clr": 88.8,
+        "prtn": 2.136,
+        "ft": 0.84,
+        "tcrb": 21.24,
+        "sgr": 7.92,
+        "gl": 9.292,
+        "clrj": 371.539,
+        "ncrb": 14.52,
+        "als": [
+            "Winter squash"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Winter type (dark green or orange) squash, cooked",
+        "mmt": {
+            "u": "cup",
+            "q": 0.5,
+            "s": 1,
+            "g": 240,
+            "df": true
+        }
+    },
+    {
+        "clr": 96,
+        "prtn": 2.16,
+        "ft": 0.216,
+        "tcrb": 25.176,
+        "sgr": 4.728,
+        "gl": 8.922,
+        "clrj": 401.664,
+        "ncrb": 17.496,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Butternut squash",
+        "mmt": {
+            "u": "cup",
+            "q": 0.5,
+            "s": 1,
+            "g": 240,
+            "df": true
+        }
+    },
+    {
+        "clr": 18.939,
+        "prtn": 0.527,
+        "ft": 0.161,
+        "tcrb": 3.833,
+        "sgr": 0.042,
+        "gl": 2.403,
+        "clrj": 79.242,
+        "ncrb": 3.519,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Melba toast",
+        "mmt": {
+            "u": "rectangle",
+            "q": 3,
+            "s": 1,
+            "g": 5,
+            "df": true
+        }
+    },
+    {
+        "clr": 115.806,
+        "prtn": 1.132,
+        "ft": 4.75,
+        "tcrb": 18.456,
+        "sgr": 11.378,
+        "gl": 7.334,
+        "clrj": 484.532,
+        "ncrb": 13.712,
+        "als": [
+            "Glazed carrots"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Carrots, glazed",
+        "mmt": {
+            "u": "cup",
+            "q": 0.5,
+            "s": 1,
+            "g": 161,
+            "df": true
+        }
+    },
+    {
+        "clr": 402.274,
+        "prtn": 2.784,
+        "ft": 32.094,
+        "tcrb": 26.208,
+        "sgr": 2.078,
+        "gl": 13.606,
+        "clrj": 1683.114,
+        "ncrb": 23.184,
+        "als": [
+            "Potato salad"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Potato salad, without egg, mayo dressing",
+        "mmt": {
+            "u": "cup",
+            "q": 0.5,
+            "s": 1,
+            "g": 193,
+            "df": true
+        }
+    },
+    {
+        "clr": 158.6,
+        "prtn": 8.052,
+        "ft": 8.54,
+        "tcrb": 9.76,
+        "sgr": 9.76,
+        "gl": 4.002,
+        "clrj": 663.582,
+        "ncrb": 9.745,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Kefir",
+        "mmt": {
+            "u": "cup",
+            "q": 1,
+            "s": 1,
+            "g": 244,
+            "df": true
+        }
+    },
+    {
+        "clr": 102.5,
+        "prtn": 2.35,
+        "ft": 1.85,
+        "tcrb": 21.924,
+        "sgr": 18.4,
+        "gl": 10.79,
+        "clrj": 428.86,
+        "ncrb": 18.164,
+        "als": [
+            "Stewed tomatoes"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Tomato, canned, stewed (onions, green peppers and celery)",
+        "mmt": {
+            "u": "cup",
+            "q": 0.5,
+            "s": 1,
+            "g": 250,
+            "df": true
+        }
+    },
+    {
+        "clr": 360.578,
+        "prtn": 26.765,
+        "ft": 24.422,
+        "tcrb": 10.283,
+        "sgr": 5.557,
+        "gl": 4.601,
+        "clrj": 1508.658,
+        "ncrb": 8.661,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Pepper steak",
+        "mmt": {
+            "u": "cup",
+            "q": 1,
+            "s": 1,
+            "g": 217,
+            "df": true
+        }
+    },
+    {
+        "clr": 69.128,
+        "prtn": 0.472,
+        "ft": 4.508,
+        "tcrb": 7.996,
+        "sgr": 7.682,
+        "gl": 4.737,
+        "clrj": 289.232,
+        "ncrb": 7.709,
+        "als": [
+            "Canned coconut milk"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Coconut milk, plain or original, fortified",
+        "mmt": {
+            "u": "cup",
+            "q": 1,
+            "s": 1,
+            "g": 240,
+            "df": true
+        }
+    },
+    {
+        "clr": 56.421,
+        "prtn": 4.498,
+        "ft": 2.819,
+        "tcrb": 3.215,
+        "sgr": 1.585,
+        "gl": 2.13,
+        "clrj": 236.067,
+        "ncrb": 3.075,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Meatloaf, beef, pork and veal mixture",
+        "mmt": {
+            "u": "ounce",
+            "q": 3,
+            "s": 1,
+            "g": 28.34966666666667,
+            "df": true
+        }
+    },
+    {
+        "clr": 56.279,
+        "prtn": 4.372,
+        "ft": 2.929,
+        "tcrb": 3.215,
+        "sgr": 1.585,
+        "gl": 2.13,
+        "clrj": 235.471,
+        "ncrb": 3.074,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Meatloaf, turkey",
+        "mmt": {
+            "u": "ounce",
+            "q": 3,
+            "s": 1,
+            "g": 28.34966666666667,
+            "df": true
+        }
+    },
+    {
+        "clr": 81.4,
+        "prtn": 2.516,
+        "ft": 0.352,
+        "tcrb": 18.778,
+        "sgr": 8.75,
+        "gl": 8.094,
+        "clrj": 340.578,
+        "ncrb": 15.934,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Pearl onions, cooked",
+        "mmt": {
+            "u": "cup",
+            "q": 0.5,
+            "s": 1,
+            "g": 185,
+            "df": true
+        }
+    },
+    {
+        "clr": 174.289,
+        "prtn": 9.649,
+        "ft": 10.37,
+        "tcrb": 10.519,
+        "sgr": 1.343,
+        "gl": 5.78,
+        "clrj": 729.225,
+        "ncrb": 8.995,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Taco, hard corn shell, with meat and cheese",
+        "mmt": {
+            "u": "regular - 5\" diameter taco shell",
+            "q": 1,
+            "s": 1,
+            "g": 84.167,
+            "df": true
+        }
+    },
+    {
+        "clr": 44.65,
+        "prtn": 0.893,
+        "ft": 0.114,
+        "tcrb": 11.163,
+        "sgr": 8.882,
+        "gl": 3.572,
+        "clrj": 186.816,
+        "ncrb": 8.638,
+        "als": [
+            "Tangelo"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Tangelo, fresh",
+        "mmt": {
+            "u": "medium - 2 1/2\" diameter",
+            "q": 1,
+            "s": 1,
+            "g": 95,
+            "df": true
+        }
+    },
+    {
+        "clr": 81.2,
+        "prtn": 2.262,
+        "ft": 0.32,
+        "tcrb": 20.866,
+        "sgr": 5.568,
+        "gl": 8.91,
+        "clrj": 339.741,
+        "ncrb": 16.494,
+        "als": [
+            "Shiitake mushrooms"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Shiitake mushrooms, cooked",
+        "mmt": {
+            "u": "cup",
+            "q": 0.5,
+            "s": 1,
+            "g": 145,
+            "df": true
+        }
+    },
+    {
+        "clr": 63.195,
+        "prtn": 4.373,
+        "ft": 3.372,
+        "tcrb": 3.597,
+        "sgr": 0.278,
+        "gl": 1.966,
+        "clrj": 264.408,
+        "ncrb": 3.412,
+        "als": [
+            "Calamari"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Calamari (squid), breaded",
+        "mmt": {
+            "u": "ounce",
+            "q": 3,
+            "s": 1,
+            "g": 28.34966666666667,
+            "df": true
+        }
+    },
+    {
+        "clr": 65,
+        "prtn": 2.262,
+        "ft": 0.806,
+        "tcrb": 12.35,
+        "sgr": 0.138,
+        "gl": 6.518,
+        "clrj": 271.96,
+        "ncrb": 10.66,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Pumpernickel bread",
+        "mmt": {
+            "u": "medium slice",
+            "q": 1,
+            "s": 1,
+            "g": 26,
+            "df": true
+        }
+    },
+    {
+        "clr": 23.684,
+        "prtn": 0.053,
+        "ft": 0.019,
+        "tcrb": 6.081,
+        "sgr": 5.78,
+        "gl": 3.736,
+        "clrj": 99.094,
+        "ncrb": 5.903,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Jam or preserves, reduced sugar",
+        "mmt": {
+            "u": "tablespoon",
+            "q": 1,
+            "s": 1,
+            "g": 17,
+            "df": true
+        }
+    },
+    {
+        "clr": 390.286,
+        "prtn": 5.248,
+        "ft": 30.748,
+        "tcrb": 23.44,
+        "sgr": 2.086,
+        "gl": 12.04,
+        "clrj": 1632.957,
+        "ncrb": 20.762,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Potato salad, with egg, mayo dressing",
+        "mmt": {
+            "u": "cup",
+            "q": 0.5,
+            "s": 1,
+            "g": 193,
+            "df": true
+        }
+    },
+    {
+        "clr": 65.064,
+        "prtn": 2.699,
+        "ft": 1.25,
+        "tcrb": 11.451,
+        "sgr": 1.384,
+        "gl": 6.581,
+        "clrj": 272.228,
+        "ncrb": 10.21,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Oat bran bread",
+        "mmt": {
+            "u": "medium slice",
+            "q": 1,
+            "s": 1,
+            "g": 28,
+            "df": true
+        }
+    },
+    {
+        "clr": 168.36,
+        "prtn": 8.686,
+        "ft": 10.102,
+        "tcrb": 10.858,
+        "sgr": 10.858,
+        "gl": 4.452,
+        "clrj": 704.418,
+        "ncrb": 10.848,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Milk, goat",
+        "mmt": {
+            "u": "cup",
+            "q": 1,
+            "s": 1,
+            "g": 244,
+            "df": true
+        }
+    },
+    {
+        "clr": 163.976,
+        "prtn": 12.125,
+        "ft": 2.067,
+        "tcrb": 25.376,
+        "sgr": 1.985,
+        "gl": 3.752,
+        "clrj": 686.076,
+        "ncrb": 13.003,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Split pea soup with bacon, ham or pork, homemade",
+        "mmt": {
+            "u": "cup",
+            "q": 1,
+            "s": 1,
+            "g": 253,
+            "df": true
+        }
+    },
+    {
+        "clr": 60,
+        "prtn": 1.1,
+        "ft": 0.15,
+        "tcrb": 15.275,
+        "sgr": 12.025,
+        "gl": 3.367,
+        "clrj": 251.04,
+        "ncrb": 11.632,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Peach, frozen, unsweetened",
+        "mmt": {
+            "u": "cup",
+            "q": 1,
+            "s": 1,
+            "g": 250,
+            "df": true
+        }
+    },
+    {
+        "clr": 419.256,
+        "prtn": 34.594,
+        "ft": 23.3,
+        "tcrb": 17.134,
+        "sgr": 11.182,
+        "gl": 11.094,
+        "clrj": 1754.167,
+        "ncrb": 15.718,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Sloppy Joe mixture, without bun",
+        "mmt": {
+            "u": "cup",
+            "q": 0.5,
+            "s": 1,
+            "g": 251,
+            "df": true
+        }
+    },
+    {
+        "clr": 93.701,
+        "prtn": 1.561,
+        "ft": 6.01,
+        "tcrb": 9.015,
+        "sgr": 1.33,
+        "gl": 6.337,
+        "clrj": 392.045,
+        "ncrb": 7.66,
+        "als": [
+            "Cream of mushroom soup"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Cream of mushroom soup, prepared from condensed can",
+        "mmt": {
+            "u": "cup",
+            "q": 1,
+            "s": 1,
+            "g": 244,
+            "df": true
+        }
+    },
+    {
+        "clr": 106.109,
+        "prtn": 7.537,
+        "ft": 4.527,
+        "tcrb": 8.999,
+        "sgr": 2.703,
+        "gl": 5.082,
+        "clrj": 443.96,
+        "ncrb": 7.664,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Stuffed cabbage roll (with rice and meat)",
+        "mmt": {
+            "u": "each - 2\" diameter x 3\"",
+            "q": 1,
+            "s": 1,
+            "g": 103.083,
+            "df": true
+        }
+    },
+    {
+        "clr": 420.613,
+        "prtn": 28.915,
+        "ft": 28.815,
+        "tcrb": 11.142,
+        "sgr": 4.485,
+        "gl": 5.958,
+        "clrj": 1759.845,
+        "ncrb": 9.637,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Beef stroganoff, without noodles",
+        "mmt": {
+            "u": "cup",
+            "q": 1,
+            "s": 1,
+            "g": 256,
+            "df": true
+        }
+    },
+    {
+        "clr": 416.214,
+        "prtn": 40.208,
+        "ft": 22.904,
+        "tcrb": 10.126,
+        "sgr": 0.569,
+        "gl": 6.619,
+        "clrj": 1741.439,
+        "ncrb": 9.525,
+        "als": [],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Chicken Kiev",
+        "mmt": {
+            "u": "roll",
+            "q": 1,
+            "s": 1,
+            "g": 165.778,
+            "df": true
+        }
+    },
+    {
+        "clr": 121.152,
+        "prtn": 2.469,
+        "ft": 7.857,
+        "tcrb": 10.027,
+        "sgr": 0.666,
+        "gl": 8.333,
+        "clrj": 506.9,
+        "ncrb": 9.858,
+        "als": [
+            "Cream of chicken soup"
+        ],
+        "src": "ncc",
+        "sgm": "food-common",
+        "gr": "C",
+        "nm": "Cream of chicken soup, prepared from condensed can",
+        "mmt": {
+            "u": "cup",
+            "q": 1,
+            "s": 1,
+            "g": 244,
+            "df": true
+        }
+    },
+    {
+        "clr": 474.752,
+        "prtn": 14.522,
+        "ft": 37.787,
+        "tcrb": 19.744,
+        "sgr": 7.08,
+        "clrj": 1986.36,
+        "ncrb": 16.539,
+        "src": "cm-recipe-writer",
+        "sgm": "recipe-premium",
+        "gr": "C",
+        "nm": "Healthy Wholefood Sweet Potato Hash Breakfast Plate",
+        "mmt": {
+            "u": "plate",
+            "q": 1,
+            "s": 1,
+            "g": 0,
+            "df": true
+        }
+    },
+    {
+        "clr": 180,
+        "prtn": 10,
+        "ft": 8,
+        "tcrb": 18,
+        "clrj": 753.12,
+        "ncrb": 15,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Chicken Empanadas",
+        "mmt": {
+            "u": "serving",
+            "q": 1,
+            "s": 1,
+            "g": 99,
+            "df": true
+        }
+    },
+    {
+        "clr": 100,
+        "prtn": 4,
+        "ft": 2,
+        "tcrb": 18,
+        "sgr": 1,
+        "clrj": 418.4,
+        "ncrb": 16,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Organic Tri-Color Quinoa Blend UPC for 10 Pounds White Black and Red Quinoa",
+        "mmt": {
+            "u": "1 oz or 28 gram serving dry uncooked weight (my family recipe is 8 servings equal to 224 grams soaked 5 hrs then drained, rinsed and cooked in water or broth 1.5 cups liquid to 1 cup quinoa. Simmer 15 with lid, then let sit for 10-15 lidded off heat. ",
+            "q": 1,
+            "s": 1,
+            "g": 28,
+            "df": true
+        }
+    },
+    {
+        "clr": 212,
+        "prtn": 25.5,
+        "ft": 3.1,
+        "tcrb": 18,
+        "clrj": 887.01,
+        "ncrb": 18,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Turkey breast and woolies rice",
+        "mmt": {
+            "u": "serving",
+            "q": 1,
+            "s": 1,
+            "g": 145,
+            "df": true
+        }
+    },
+    {
+        "clr": 216,
+        "prtn": 10.3,
+        "ft": 8.6,
+        "tcrb": 20.9,
+        "sgr": 6.7,
+        "clrj": 903.74,
+        "ncrb": 13.9,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Collagen Granola Clusters ",
+        "mmt": {
+            "u": "serving",
+            "q": 1,
+            "s": 1,
+            "g": 50,
+            "df": true
+        }
+    },
+    {
+        "clr": 200,
+        "prtn": 23,
+        "ft": 5,
+        "tcrb": 16,
+        "sgr": 8,
+        "clrj": 836.8,
+        "ncrb": 12,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Simply steamers, chicken and vegetable stir fry",
+        "mmt": {
+            "u": "bowl",
+            "q": 1,
+            "s": 1,
+            "g": 262,
+            "df": true
+        }
+    },
+    {
+        "clr": 120,
+        "prtn": 2,
+        "ft": 4,
+        "tcrb": 18,
+        "clrj": 502.08,
+        "ncrb": 17,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Apple Spice Granola Bar",
+        "mmt": {
+            "u": "serving",
+            "q": 1,
+            "s": 1,
+            "g": 0,
+            "df": true
+        }
+    },
+    {
+        "clr": 530,
+        "prtn": 28,
+        "ft": 41,
+        "tcrb": 19,
+        "sgr": 11,
+        "clrj": 2217.52,
+        "ncrb": 17,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Mexican Spiced Pork Filet",
+        "mmt": {
+            "u": "serving",
+            "q": 1,
+            "s": 1,
+            "g": 0,
+            "df": true
+        }
+    },
+    {
+        "clr": 33,
+        "prtn": 3.2,
+        "ft": 4.3,
+        "tcrb": 19,
+        "clrj": 138.07,
+        "ncrb": 18.1,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Galletita de agua",
+        "mmt": {
+            "u": "serving",
+            "q": 1,
+            "s": 1,
+            "g": 0,
+            "df": true
+        }
+    },
+    {
+        "clr": 105.6,
+        "prtn": 5.7,
+        "ft": 1.2,
+        "tcrb": 11,
+        "sgr": 6,
+        "clrj": 441.83,
+        "ncrb": 11,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Surimi Salad Mix ",
+        "mmt": {
+            "u": "serving",
+            "q": 1,
+            "s": 1,
+            "g": 100,
+            "df": true
+        }
+    },
+    {
+        "clr": 390,
+        "prtn": 9,
+        "ft": 33,
+        "tcrb": 21,
+        "sgr": 9,
+        "clrj": 1631.76,
+        "ncrb": 15,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Chopped Avocado Ranch Salad Kit (Whole Bag)",
+        "mmt": {
+            "u": "serving",
+            "q": 1,
+            "s": 1,
+            "g": 300,
+            "df": true
+        }
+    },
+    {
+        "clr": 160,
+        "prtn": 1,
+        "ft": 10,
+        "tcrb": 16,
+        "clrj": 669.44,
+        "ncrb": 16,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Sweet carolina reaper flamin' hot cheetos",
+        "mmt": {
+            "u": "serving",
+            "q": 1,
+            "s": 1,
+            "g": 28,
+            "df": true
+        }
+    },
+    {
+        "clr": 240,
+        "prtn": 16,
+        "ft": 0,
+        "tcrb": 44,
+        "sgr": 0,
+        "clrj": 1004.16,
+        "ncrb": 32,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Cajun 15 Bean Soup",
+        "mmt": {
+            "u": "cup",
+            "q": 0.5,
+            "s": 1,
+            "g": 0,
+            "df": true
+        }
+    },
+    {
+        "clr": 590,
+        "prtn": 28,
+        "ft": 43,
+        "tcrb": 25,
+        "clrj": 2468.56,
+        "ncrb": 20,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Shrimp and butternut squash hash",
+        "mmt": {
+            "u": "serving",
+            "q": 1,
+            "s": 1,
+            "g": 0,
+            "df": true
+        }
+    },
+    {
+        "clr": 220,
+        "prtn": 12,
+        "ft": 9,
+        "tcrb": 22,
+        "clrj": 920.48,
+        "ncrb": 18,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Maple Sea Salt RX Bar",
+        "mmt": {
+            "u": "Bar",
+            "q": 1,
+            "s": 1,
+            "g": 52,
+            "df": true
+        }
+    },
+    {
+        "clr": 120,
+        "prtn": 4,
+        "ft": 6,
+        "tcrb": 14,
+        "sgr": 11,
+        "clrj": 502.08,
+        "ncrb": 12,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Salted Peanut Energy Bitee",
+        "mmt": {
+            "u": "piece",
+            "q": 1,
+            "s": 1,
+            "g": 29,
+            "df": true
+        }
+    },
+    {
+        "clr": 150,
+        "prtn": 2,
+        "ft": 9,
+        "tcrb": 16,
+        "clrj": 627.6,
+        "ncrb": 15,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Kettle cooked Fritos chilli cheese",
+        "mmt": {
+            "u": "serving",
+            "q": 1,
+            "s": 1,
+            "g": 28,
+            "df": true
+        }
+    },
+    {
+        "clr": 450.45,
+        "prtn": 6.006,
+        "ft": 24.024,
+        "tcrb": 54.054,
+        "clrj": 1884.685,
+        "ncrb": 48.048,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "crunchy corn",
+        "mmt": {
+            "u": "cup",
+            "q": 0.333,
+            "s": 1,
+            "g": 0,
+            "df": true
+        }
+    },
+    {
+        "clr": 70,
+        "prtn": 1,
+        "ft": 0,
+        "tcrb": 16,
+        "clrj": 292.88,
+        "ncrb": 15,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Sunny Fruit Organic Dried Mango",
+        "mmt": {
+            "u": "serving",
+            "q": 1,
+            "s": 1,
+            "g": 20,
+            "df": true
+        }
+    },
+    {
+        "clr": 223,
+        "prtn": 6,
+        "ft": 13,
+        "tcrb": 19,
+        "clrj": 933.03,
+        "ncrb": 19,
+        "src": "user",
+        "sgm": "food-user",
+        "gr": "C",
+        "nm": "Boemboe pepesan",
+        "mmt": {
+            "u": "serving",
+            "q": 1,
+            "s": 1,
+            "g": 100,
+            "df": true
+        }
+    }
+]
