@@ -4,13 +4,15 @@
     <!-- Your HTML page's head content here -->
 </head>
 <body>
-    <!-- Radio buttons to select the container -->
-    <input type="radio" id="radio1" name="containerRadio" value="1">
-    <label for="radio1">Container 1</label><br>
-    <input type="radio" id="radio2" name="containerRadio" value="2">
-    <label for="radio2">Container 2</label><br>
-    <input type="radio" id="radio3" name="containerRadio" value="3">
-    <label for="radio3">Container 3</label><br>
+    <form id="containerForm">
+        <!-- Radio buttons to select the container -->
+        <input type="radio" id="radio1" name="containerRadio" value="1">
+        <label for="radio1">Container 1</label><br>
+        <input type="radio" id="radio2" name="containerRadio" value="2">
+        <label for="radio2">Container 2</label><br>
+        <input type="radio" id="radio3" name="containerRadio" value="3">
+        <label for="radio3">Container 3</label><br>
+    </form>
 
     <!-- Container to display the selected subscription data and index -->
     <div id="selectedContainerData"></div>
@@ -30,14 +32,18 @@
         // Function to display the selected container
         function showSelectedContainer() {
             // Get the selected radio button value
-            var selectedContainerValue = document.querySelector('input[name="containerRadio"]:checked').value;
-            var selectedContainer = document.getElementById('container' + selectedContainerValue);
+            var selectedContainerValue = document.querySelector('input[name="containerRadio"]:checked');
+            if (selectedContainerValue) {
+                var selectedContainer = document.getElementById('container' + selectedContainerValue.value);
 
-            // Show the selected container data and index
-            document.getElementById('selectedContainerData').innerText = selectedContainer.innerText;
+                // Show the selected container data and index
+                document.getElementById('selectedContainerData').innerText = selectedContainer.innerText;
 
-            // Store the picked ID
-            pickedId = selectedContainerValue;
+                // Store the picked ID
+                pickedId = selectedContainerValue.value;
+            } else {
+                alert('Please select a container before continuing.');
+            }
         }
 
         // Function to send the picked ID to Flutter
