@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Your HTML page's head content here -->
+</head>
+
+<body>
+    <!-- Container to display the subscription data and index -->
+    <div id="container1" style="display: none;"></div>
+    <div id="container2" style="display: none;"></div>
+    <div id="container3" style="display: none;"></div>
+
+    <!-- Next button to navigate between containers -->
+    <button onclick="showNextContainer()">Next</button>
+
+    <script>
+        // Array to store the subscription data sent from Flutter
+        var subscriptionData = [];
+
+        // Function to display the next container
+        function showNextContainer() {
+            // Check if there's any subscription data to show
+            if (subscriptionData.length > 0) {
+                var currentContainer = document.querySelector(':not([style*="display: none"])');
+                var currentIndex = subscriptionData.findIndex(item => item === currentContainer.innerText);
+                var nextIndex = (currentIndex + 1) % subscriptionData.length;
+
+                currentContainer.style.display = "none";
+                var nextContainer = document.getElementById('container' + (nextIndex + 1));
+                nextContainer.style.display = "block";
+            }
+        }
+
+        // Function to receive the data from Flutter and store it in the array
+        function receiveDataFromFlutter(data) {
+            subscriptionData.push(data);
+            if (subscriptionData.length <= 3) {
+                var container = document.getElementById('container' + subscriptionData.length);
+                container.innerText = data;
+            }
+        }
+
+        // Add an event listener for when the page is loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            // Call the receiveDataFromFlutter function with the data from Flutter
+            window.flutter_inappwebview.callHandler('getDataFromFlutter', null, receiveDataFromFlutter);
+        });
+    </script>
+</body>
+
+</html>
