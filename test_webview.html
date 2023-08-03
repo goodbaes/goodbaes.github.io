@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <!-- Your HTML page's head content here -->
 </head>
-
 <body>
-    <!-- Container to display the subscription data and index -->
-    <div id="container1" style="display: none;"></div>
-    <div id="container2" style="display: none;"></div>
-    <div id="container3" style="display: none;"></div>
+    <!-- Radio buttons to select the container -->
+    <input type="radio" id="radio1" name="containerRadio" value="1">
+    <label for="radio1">Container 1</label><br>
+    <input type="radio" id="radio2" name="containerRadio" value="2">
+    <label for="radio2">Container 2</label><br>
+    <input type="radio" id="radio3" name="containerRadio" value="3">
+    <label for="radio3">Container 3</label><br>
+
+    <!-- Container to display the selected subscription data and index -->
+    <div id="selectedContainerData"></div>
 
     <!-- Next button to navigate between containers -->
-    <button onclick="showNextContainer()">Next</button>
+    <button onclick="showSelectedContainer()">Show Selected Container</button>
 
     <script>
         // Array to store the subscription data sent from Flutter
         var subscriptionData = [];
 
-        // Function to display the next container
-        function showNextContainer() {
-            // Check if there's any subscription data to show
-            if (subscriptionData.length > 0) {
-                var currentContainer = document.querySelector(':not([style*="display: none"])');
-                var currentIndex = subscriptionData.findIndex(item => item === currentContainer.innerText);
-                var nextIndex = (currentIndex + 1) % subscriptionData.length;
+        // Function to display the selected container
+        function showSelectedContainer() {
+            // Get the selected radio button value
+            var selectedContainerValue = document.querySelector('input[name="containerRadio"]:checked').value;
+            var selectedContainer = document.getElementById('container' + selectedContainerValue);
 
-                currentContainer.style.display = "none";
-                var nextContainer = document.getElementById('container' + (nextIndex + 1));
-                nextContainer.style.display = "block";
-            }
+            // Show the selected container data and index
+            document.getElementById('selectedContainerData').innerText = selectedContainer.innerText;
         }
 
         // Function to receive the data from Flutter and store it in the array
@@ -42,11 +42,10 @@
         }
 
         // Add an event listener for when the page is loaded
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             // Call the receiveDataFromFlutter function with the data from Flutter
             window.flutter_inappwebview.callHandler('getDataFromFlutter', null, receiveDataFromFlutter);
         });
     </script>
 </body>
-
 </html>
