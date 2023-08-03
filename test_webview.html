@@ -18,9 +18,14 @@
     <!-- Next button to navigate between containers -->
     <button onclick="showSelectedContainer()">Show Selected Container</button>
 
+    <!-- Continue button to send picked ID to Flutter -->
+    <button onclick="sendPickedIdToFlutter()">Continue</button>
+
     <script>
         // Array to store the subscription data sent from Flutter
         var subscriptionData = [];
+        // Variable to store the picked ID
+        var pickedId = null;
 
         // Function to display the selected container
         function showSelectedContainer() {
@@ -30,6 +35,19 @@
 
             // Show the selected container data and index
             document.getElementById('selectedContainerData').innerText = selectedContainer.innerText;
+
+            // Store the picked ID
+            pickedId = selectedContainerValue;
+        }
+
+        // Function to send the picked ID to Flutter
+        function sendPickedIdToFlutter() {
+            if (pickedId !== null) {
+                // Send the picked ID to the Flutter app through the JavaScript channel
+                window.flutter_inappwebview.callHandler('flutter_inappwebview_continue_button', pickedId);
+            } else {
+                alert('Please select a container before continuing.');
+            }
         }
 
         // Function to receive the data from Flutter and store it in the array
