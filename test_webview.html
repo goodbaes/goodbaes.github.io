@@ -5,7 +5,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <div id="app_data"></div>
+    <div id="app_data">placeholder</div>
     <!-- Buttons -->
     
     <button id="button1">Button 1</button>
@@ -16,16 +16,12 @@
     
     <!-- Include your JavaScript code -->
     <script>
-        
-function onMessageReceived(event) {
-  var message = event.data;
-  document.getElementById("app_data").innerHTML = message;
-}
+    const channel = new BroadcastChannel("app_channel");
+    channel.addEventListener("message", (event) => {
+            console.log(event.data);
+            app_data.textContent = event.data;
+        });
 
-        const channel = new BroadcastChannel("app_channel");
-channel.addEventListener("message", (event) => {
-  onMessageReceived(event.data)
-});
         // Function to handle button clicks and send ID to the channel
         function sendIDToFlutterInAppWebView(id) {
             // Assuming you have a reference to the Flutter InAppWebView plugin's channel
