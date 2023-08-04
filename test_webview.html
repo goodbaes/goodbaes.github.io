@@ -2,26 +2,39 @@
 <html>
 <head>
     <title>Button Example</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <!-- Buttons -->
     <button id="button1">Button 1</button>
     <button id="button2">Button 2</button>
     <button id="button3">Button 3</button>
-
+    </br>
+    <button id="buttonContinue">buy</button>
+    
     <!-- Include your JavaScript code -->
     <script>
         // Function to handle button clicks and send ID to the channel
-        function sendIDToFlutterInAppWebView(channelID) {
+        function sendIDToFlutterInAppWebView(id) {
             // Assuming you have a reference to the Flutter InAppWebView plugin's channel
             // Replace 'YOUR_FLUTTER_CHANNEL_REFERENCE' with the actual reference to your channel
             // In Flutter, it could be something like MethodChannel('flutter_inappwebview_continue_button')
             // Note that this is just an example; you should replace it with your actual implementation.
-            window.flutter_inappwebview_continue_button.postMessage(channelID);
+            window.flutter_inappwebview_pick_id.postMessage(id);
 
         }
 
+            function sendIDToFlutterInAppContinueButton() {
+            window.flutter_inappwebview_continue_button.postMessage('continue');
+
+        }
+            
         // Add event listeners to the buttons
+
+        document.getElementById('buttonContinue').addEventListener('click', function() {
+            sendIDToFlutterInAppContinueButton();
+        });
+        
         document.getElementById('button1').addEventListener('click', function() {
             sendIDToFlutterInAppWebView('ID_1');
         });
