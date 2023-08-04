@@ -1,74 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Your HTML page's head content here -->
+    <title>Button Example</title>
 </head>
 <body>
-    <form id="containerForm">
-        <!-- Radio buttons to select the container -->
-        <input type="radio" id="radio1" name="containerRadio" value="1">
-        <label for="radio1">Container 1</label><br>
-        <input type="radio" id="radio2" name="containerRadio" value="2">
-        <label for="radio2">Container 2</label><br>
-        <input type="radio" id="radio3" name="containerRadio" value="3">
-        <label for="radio3">Container 3</label><br>
-    </form>
+    <!-- Buttons -->
+    <button id="button1">Button 1</button>
+    <button id="button2">Button 2</button>
+    <button id="button3">Button 3</button>
 
-    <!-- Container to display the selected subscription data and index -->
-    <div id="selectedContainerData"></div>
-
-    <!-- Next button to navigate between containers -->
-    <button onclick="showSelectedContainer()">Show Selected Container</button>
-
-    <!-- Continue button to send picked ID to Flutter -->
-    <button onclick="sendPickedIdToFlutter()">Continue</button>
-
+    <!-- Include your JavaScript code -->
     <script>
-        // Array to store the subscription data sent from Flutter
-        var subscriptionData = [];
-        // Variable to store the picked ID
-        var pickedId = null;
+        // Function to handle button clicks and send ID to the channel
+        function sendIDToFlutterInAppWebView(channelID) {
+            // Assuming you have a reference to the Flutter InAppWebView plugin's channel
+            // Replace 'YOUR_FLUTTER_CHANNEL_REFERENCE' with the actual reference to your channel
+            // In Flutter, it could be something like MethodChannel('flutter_inappwebview_continue_button')
+            // Note that this is just an example; you should replace it with your actual implementation.
+            var channel = YOUR_FLUTTER_CHANNEL_REFERENCE;
 
-        // Function to display the selected container
-        function showSelectedContainer() {
-            // Get the selected radio button value
-            var selectedContainerValue = document.querySelector('input[name="containerRadio"]:checked');
-            if (selectedContainerValue) {
-                var selectedContainer = document.getElementById('container' + selectedContainerValue.value);
-
-                // Show the selected container data and index
-                document.getElementById('selectedContainerData').innerText = selectedContainer.innerText;
-
-                // Store the picked ID
-                pickedId = selectedContainerValue.value;
-            } else {
-                alert('Please select a container before continuing.');
-            }
+            // Send the ID to the Flutter channel
+            channel.postMessage(channelID);
         }
 
-        // Function to send the picked ID to Flutter
-        function sendPickedIdToFlutter() {
-            if (pickedId !== null) {
-                // Send the picked ID to the Flutter app through the JavaScript channel
-                window.flutter_inappwebview.callHandler('flutter_inappwebview_continue_button', pickedId);
-            } else {
-                alert('Please select a container before continuing.');
-            }
-        }
+        // Add event listeners to the buttons
+        document.getElementById('button1').addEventListener('click', function() {
+            sendIDToFlutterInAppWebView('ID_1');
+        });
 
-        // Function to receive the data from Flutter and store it in the array
-        function receiveDataFromFlutter(data) {
-            subscriptionData.push(data);
-            if (subscriptionData.length <= 3) {
-                var container = document.getElementById('container' + subscriptionData.length);
-                container.innerText = data;
-            }
-        }
+        document.getElementById('button2').addEventListener('click', function() {
+            sendIDToFlutterInAppWebView('ID_2');
+        });
 
-        // Add an event listener for when the page is loaded
-        document.addEventListener('DOMContentLoaded', function() {
-            // Call the receiveDataFromFlutter function with the data from Flutter
-            window.flutter_inappwebview.callHandler('getDataFromFlutter', null, receiveDataFromFlutter);
+        document.getElementById('button3').addEventListener('click', function() {
+            sendIDToFlutterInAppWebView('ID_3');
         });
     </script>
 </body>
