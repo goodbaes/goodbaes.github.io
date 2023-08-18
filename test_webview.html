@@ -86,13 +86,12 @@
         button1.textContent = price1 || 'Button 1';
         button2.textContent = price2 || 'Button 2';
         button3.textContent = price3 || 'Button 3';
+        appData='now';
+        functuon setNewAppData(value){
+            appData=value;
+            app_data.textContent=appData;
+        }
 
-
-        const channel = new BroadcastChannel("app_channel");
-        channel.addEventListener("message", (event) => {
-            console.log(event.data);
-            app_data.textContent = event.data;
-        });
 
         function sendIDToFlutterInAppWebView(id) {
             currentIdElement.textContent = id;
